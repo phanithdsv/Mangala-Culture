@@ -1,0 +1,24 @@
+.get-involved {
+    padding: 20px;
+    max-width: 800px; /* Adjust as necessary */
+    margin: auto;
+  }
+  
+  .get-involved h2 {
+    text-align: center;
+  }
+  
+  .get-involved p {
+    font-size: 18px; /* Adjust as necessary */
+    line-height: 1.6; /* Adjust as necessary */
+  }
+  
+  .get-involved ul {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  .get-involved li {
+    margin-bottom: 10px;
+  }
+  

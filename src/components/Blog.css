@@ -1,0 +1,29 @@
+.blog {
+    padding: 20px;
+  }
+  
+  .video-blog-entry {
+    margin-bottom: 20px;
+  }
+  
+.video-blog-entry iframe {
+    width: 100%; /* Responsive width */
+    height: 315px; /* Fixed height or make it responsive */
+    border: none; /* Removes default iframe border */
+  }
+/* Responsive video container */
+.video-container {
+    position: relative;
+    width: 50%;
+    padding-top: 28.125%; /* 16:9 Aspect Ratio */
+  }
+  
+  /* Absolute positioning inside container */
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+    

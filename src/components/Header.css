@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* Adjust to match your site's theme */
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust as needed */
+  }
+  
+  .navigation a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333; /* Adjust as needed */
+  }
+  
+  /* Add more styles as needed */
+  

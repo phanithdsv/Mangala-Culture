@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+/* Resets margins and padding */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Global font style */
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 60px; /* Adjust based on your header's height */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
+  min-height: 100vh; /* 100% of the viewport height */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column; /* Stack content vertically */
+  scroll-snap-align: start; /* Optional: for smooth snapping when scrolling */
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Sticky header style */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  /* Add more styles as needed (e.g., padding, box-shadow) */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html {
+  scroll-behavior: smooth;
 }
